@@ -23,8 +23,6 @@ export const HW3 = () => {
     const handleSave = () => {
         setTexts([...texts, currentText])
         setCurrentText('')
-        // ЗАСЕТАТЬ БЫ ТЕКСТ В texts И НЕ ПОТЕРЯТЬ НАПУТСТВИЕ ИЗ ПРОШЛОГО ВЕКА)
-        // А ЗАТЕМ УБРАТЬ ЗА СОБОЙ В currentText
     };
 
     return (
